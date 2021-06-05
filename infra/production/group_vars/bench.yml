@@ -1,2 +1,4 @@
 ---
 bench_dir: '/home/{{ admin_name }}/bench'
+
+local_scenario_dir: /home/ubuntu/n-isucon-2019/bench/scenario

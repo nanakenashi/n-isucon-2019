@@ -7,9 +7,6 @@
     packages:
       - nodejs
       - npm
-      - node-gyp
-      - nodejs-dev
-      - libssl1.0-dev
 
 - name: 'install n by npm'
   npm:
@@ -27,6 +24,3 @@
     packages:
       - nodejs
       - npm
-      - node-gyp
-      - nodejs-dev
-      - libssl1.0-dev

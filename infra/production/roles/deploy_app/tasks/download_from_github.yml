@@ -1,7 +1,7 @@
 ---
 - name: 'download from github'
   git:
-    repo: git@github.com:nttcom/n-isucon-2019.git
+    repo: https://github.com/nanakenashi/n-isucon-2019.git
     dest: '{{ tmp_dir }}'
     version: 'master'
     accept_hostkey: true

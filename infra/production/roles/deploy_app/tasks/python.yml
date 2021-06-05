@@ -8,8 +8,8 @@
     group: '{{ group_name }}'
     mode: '0755'
 
-- name: 'update pip3 for python3.7'
-  command: 'python3.7 -m pip install --upgrade pip'
+- name: 'update pip3 for python3.8'
+  command: 'python3.8 -m pip install --upgrade pip'
 
 - name: 'pip install'
-  command: 'python3.7 -m pip install -r {{ app_dir }}/python/requirements.txt'
+  command: 'python3.8 -m pip install -r {{ app_dir }}/python/requirements.txt'

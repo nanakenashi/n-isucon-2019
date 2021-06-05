@@ -27,7 +27,7 @@
   vars:
     packages:
       - mysql-server
-      - libmysqld-dev
+      - libmysqlclient-dev
       - mysql-client
 
 - name: 'enable mysql-server service'

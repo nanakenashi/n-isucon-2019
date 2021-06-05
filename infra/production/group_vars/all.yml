@@ -1,2 +1,7 @@
 ---
 tmp_dir: /tmp/nisucon_tmp
+
+player_name: isucon
+admin_name: isucon_admin
+group_name: isucons
+ansible_python_interpreter: /usr/bin/python3

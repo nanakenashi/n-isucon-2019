@@ -5,11 +5,11 @@
 - name: 'add k6 repo key'
   apt_key:
     keyserver: "hkp://keyserver.ubuntu.com:80"
-    id: 379CE192D401AB61
+    id: C5AD17C747E3415A3642D57D77C6C491D6AC1D69
 
 - name: 'add k6 repo'
   apt_repository:
-    repo: deb https://dl.bintray.com/loadimpact/deb stable main
+    repo: deb https://dl.k6.io/deb stable main
     update_cache: true
     validate_certs: false
 
