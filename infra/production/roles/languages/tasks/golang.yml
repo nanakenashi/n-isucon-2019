@@ -5,7 +5,7 @@
     update_cache: true
     validate_certs: false
 
-- name: 'install golang 1.12'
+- name: 'install golang 1.16'
   apt:
     name: '{{ packages }}'
     state: present
