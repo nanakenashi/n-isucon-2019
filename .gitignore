@@ -166,3 +166,13 @@ node_modules/
 
 # seed.sql
 infra/production/roles/deploy_app/files/seed.sql
+
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Local History for Visual Studio Code
+.history/
